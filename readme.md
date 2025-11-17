@@ -35,3 +35,10 @@ Enviornment variables
     - Since, Node.js has this feature, we will uses built-in feature for that.
 
 Terminal command for checking port no. = echo $env:PORT, for removing this run this command = Remove-Item env:\PORT
+
+ZOD Validation:
+
+    - You might have many enviornment variables in your project, and it's important to validate each one to ensure they all present and correct.
+    - You can either handle it manually or, preferably, use a validation library like zod.
+    - Zod is TypeScript-first Schema declaration and validation library that allows you to define and validate the structure of your data easily.
+    - We will be using Zod for various validations in the future, so we'll also use it here to validate enviornment variables.
